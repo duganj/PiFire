@@ -6,6 +6,7 @@
 #
 # Install with this command (from your Pi):
 #
+# need to manually update this command to run the installer from the 'feature-modbusprobe' branch
 # curl https://raw.githubusercontent.com/duganj/pifire/master/auto-install/install.sh | bash
 #
 # NOTE: Pre-Requisites to run Raspi-Config first.  See README.md.
@@ -82,9 +83,9 @@ echo "**                                                                     **"
 echo "*************************************************************************"
 cd /usr/local/bin
 # Use a shallow clone to reduce download size
-$SUDO git clone --depth 1 https://github.com/duganj/pifire
+# $SUDO git clone --depth 1 https://github.com/duganj/pifire
 # Replace the below command to fetch development branch
-#$SUDO git clone --depth 1 --branch development https://github.com/duganj/pifire
+$SUDO git clone --depth 1 --branch feature-modbusprobe https://github.com/duganj/pifire
 
 # Setup Python VENV & Install Python dependencies
 clear
