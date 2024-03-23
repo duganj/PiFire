@@ -6,8 +6,8 @@
 #
 # Install with this command (from your Pi):
 #
-# need to manually update this command to run the installer from the 'feature-modbusprobe' branch
-# curl https://raw.githubusercontent.com/duganj/pifire/master/auto-install/install.sh | bash
+# updated this command below to run the installer from the 'feature-modbusprobe' branch vs master as shown above
+# curl https://raw.githubusercontent.com/duganj/PiFire/feature-modbusprobe/auto-install/install.sh | bash
 #
 # NOTE: Pre-Requisites to run Raspi-Config first.  See README.md.
 
